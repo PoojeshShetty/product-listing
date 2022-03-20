@@ -1,0 +1,65 @@
+[
+    {
+        "id":"1",
+        "name" : "shirt",
+        "brand": "puma",
+        "price" : 1200,
+        "gender" : "male",
+        "imageUrl" : "https://5.imimg.com/data5/CE/XF/MY-55385863/img-20180703-wa0025-500x500.jpg",
+        "size" : ["S", "L","XL"]
+    },
+    {
+        "id":"2",
+        "name" : "Checks shirt",
+        "brand": "levis",
+        "price" : 1800,
+        "gender" : "female",
+        "imageUrl" : "https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPWHITE-FORMALBRAH658534E3B0A137/1562862822643_0..jpg",
+        "size" : ["M", "L","XL"]
+    },
+    {
+        "id":"3",
+        "name" : "Shirt",
+        "brand": "Bull",
+        "price" : 2200,
+        "gender" : "male",
+        "imageUrl" : "https://contents.mediadecathlon.com/p1484240/ab565f3675dbdd7e3c486175e2c16583/p1484240.jpg",
+        "size" : ["S", "L","M"]
+    },
+    {
+        "id":"4",
+        "name" : "Shirt",
+        "brand": "levis",
+        "price" : 1300,
+        "gender" : "male",
+        "imageUrl" : "https://rukminim2.flixcart.com/image/714/857/jlsc58w0/shirt/8/e/n/xl-partywear-n-t-fashion-original-imaf8u2vs5guqjsa.jpeg?q=50", 
+        "size" : ["S", "L","XL"]
+    },
+    {
+        "id":"5",
+        "name" : "Shirt",
+        "brand": "nike",
+        "price" : 1000,
+        "gender" : "female",
+        "imageUrl" : "https://images-eu.ssl-images-amazon.com/images/I/61gqf3Ufn4L._AC._SR360,460.jpg",
+        "size" : ["M", "L","XL"]
+    },
+    {
+        "id":"6",
+        "name" : "Shirt",
+        "brand": "puma",
+        "price" : 900,
+        "gender" : "male",
+        "imageUrl" : "https://5.imimg.com/data5/BJ/AV/UA/SELLER-43380556/mens-plane-shirt-500x500.jpg",
+        "size" : ["S", "L","M"]
+    },
+    {
+        "id":"7",
+        "name" : "Shirt",
+        "brand": "nike",
+        "price" : 3000,
+        "gender" : "male",
+        "imageUrl" : "https://www.gentlemansgazette.com/wp-content/uploads/2019/11/Small-collar-shirt-773x1030.jpg",
+        "size" : ["S", "L","M"]
+    }
+]
