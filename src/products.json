@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "name" : "shirt",
+        "name" : "Shirt",
         "brand": "puma",
         "price" : 1200,
         "gender" : "male",
@@ -10,7 +10,7 @@
     },
     {
         "id":"2",
-        "name" : "Checks shirt",
+        "name" : "Shirt",
         "brand": "levis",
         "price" : 1800,
         "gender" : "female",

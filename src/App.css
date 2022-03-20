@@ -15,7 +15,6 @@ body{
   width:99%;
   height:3em;
   padding:4px;
-  border: 1px solid red;
   background-color: var(--blue);
 }
 
