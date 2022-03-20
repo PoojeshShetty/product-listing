@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+:root{
+  --blue : #2874f0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin-bottom: 1em;
+}
+/* navbar */
+
+.navbar{
+  position:sticky;
+  top:0;
+  left: 0;
+  right: 0;
+  width:99%;
+  height:3em;
+  padding:4px;
+  border: 1px solid red;
+  background-color: var(--blue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar__content{
+  width:50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar__logo{
+  width:5em;
+  height: 2em;
+  margin-right: 3em;
+}
+
+.navbar__search{
+  height: 2em;
+  width: 280px;
+  padding:4px 8px;
+}
+
+/* productlist */
+.productlist{
+  margin-left:180px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+  padding:6px 8px;
+  gap: 10px;
+}
+
+/* product */
+
+.product{
+  padding:8px 10px;
+  border:2px solid rgb(0, 0, 0,0.2);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+}
+.product__image{
+  width:90%;
+  height: 70%;
+  margin:0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.product__image img{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product__info{
+  padding:0 6px;
+  margin-top: auto;
+}
+
+.product__name{
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin:0.4px;
+}
+
+.product__brand{
+  font-size: 1.1rem;
+  color:rgb(0, 0, 0,0.4)
+}
+
+.product__price{
+  margin:5px 0;
+  font-weight: 600;
+}
+
+.product__sizes span{
+  display: inline-block;
+  margin-right: 2px;
+  width:1.1em;
+  text-align: center;
+  padding:2px;
+  font-weight: 500;
+  border:1px solid rgba(0,0,0,0.2);
+}
+
+.product__gender{
+  margin:2px 0;
+}
+
+/* sidebar */
+
+.sidebar{
+  position: fixed;
+  width:170px;
+  height: 100vh;
+  border:1px solid black;
+}
+
+.sidebar .btn{
+  padding:4px 6px;
+  border: 1px solid black;
+  margin:2px;
+}
+
+/* filer  */
+.filter{
+  padding:10px 8px;
+}
+
+.filter__title{
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin:5px 0;
 }
